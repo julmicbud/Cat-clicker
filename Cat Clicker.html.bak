@@ -16,9 +16,17 @@
 	</header>
 
 	<h1>Cat Clicker</h1>
-	<img src="http://placekitten.com/200/300" alt="Kitten" title="Kitten Photo" />
-	<!-- content goes here -->
+<img src="http://placekitten.com/200/300" alt="Kitten" title="Kitten Photo" onclick="updateCounter()"/>
 
+<script language="javascript">
+	var number = 0;
+	function updateCounter () {
+		number++;
+		document.write("this photo has been clicked " + number + " times");
+	}
+</script>
+<form name="frm1" method="post" action="">
+	
 	<footer>
 	</footer>
 
